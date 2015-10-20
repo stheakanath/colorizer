@@ -23,7 +23,7 @@ def move(im, dx, dy):
 	return after, changesx / total, changesy / total
 
 # Main Code
-imname = "a_orig.jpg"
+imname = sys.argv[1]
 print "Converting " + imname
 if "tif" in imname:
 	print "16 bit image detected. Converting image to 8 bit."
