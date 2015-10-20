@@ -1,5 +1,4 @@
 # Kuriakose Sony Theakanath
-# Project 1
 # Colorizing the Prokudin-Gorskii photo collection
 
 from PIL import Image
